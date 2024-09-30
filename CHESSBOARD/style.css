@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a6e8cb;
+}
+
+.chessboard{
+    display: grid;
+    grid-template-columns: repeat(8,60px);
+    grid-template-rows: repeat(8,60px);
+    border: 2px solid rgb(26, 26, 25);
+}
+
+.square{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+
+
+}
+
+.white-piece, .brown-piece {
+    cursor: pointer;
+}
+.green{
+    background-color: rgb(81, 249, 9);
+}
+
+.blue{
+    background-color: #340ef0;
+}
