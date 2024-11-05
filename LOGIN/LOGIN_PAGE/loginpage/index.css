@@ -1,0 +1,30 @@
+ 
+    .form1{
+        
+        box-sizing: border-box;
+        background-color: rgb(72, 196, 196);
+        margin: auto;
+        width: 290px;;
+        height: 300px;
+        padding: 3px ;
+        box-shadow: 3px 2px ;
+        border: 3px;
+        border-radius: 10px;
+    }
+    .login{
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+button{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(35, 226, 83);
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    border-color:white;
+    border-top: 2cap;
+    border-bottom: 2cap;
+
+}
